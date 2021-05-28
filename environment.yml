@@ -1,0 +1,21 @@
+name: in1910-book
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python
+  - sphinx
+  - pip
+  - matplotlib
+  - numpy
+  - numba
+  - scipy
+  - cython
+  - line_profiler
+  - pybind11
+  - cmake
+  - ffmpeg
+  - jupyter
+  - jupyterlab
+  - pip:
+      - jupyter-book>=0.7.0b

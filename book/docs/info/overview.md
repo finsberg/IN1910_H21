@@ -1,0 +1,119 @@
+# Overview of lectures and exercises
+
+## Week 1 — Course Overview, Python Refresh, Introduction to Git
+
+* Lecture notes
+    * [Course Overview](info.md)
+    * [A quick refresh of Python](../lectures/python/python_intro.ipynb)
+    * [An introduction to Git](../lectures/git/version_control_with_git.ipynb)
+    
+* Exercises
+    * [Python refresher and Git](../exercises/week1/E1_python_refresh_and_git.ipynb)
+    * [Example Solutions](../exercises/week1/E1_solutions.ipynb)
+   
+## Week 2 — Object-Oriented Programming
+
+* Lecture notes
+    * [Introduction to Object-Oriented Programming](../lectures/python/intro_to_oop.ipynb)
+    * [Making Classes in Python](../lectures/python/classes_methods_decorators.ipynb)
+
+* Exercises
+    * [Exercises on OOP](../exercises/week2/E2_exercises_on_oop.ipynb)
+    * [Example Solutions](../exercises/week2/E2_solutions.ipynb)
+
+
+## Week 3 — Writing reliable and understandable code
+
+* Lecture notes
+    * [Assertions, Exceptions, Testing](../lectures/testing_codestyle/writing_functioning_code.ipynb)
+    * [Code Style and Documentation](../lectures/testing_codestyle/codestyle_and_docstrings.ipynb)
+
+* Exercises
+    * [Exercises on Unit Testing](../exercises/week3/E3_testing_and_docstrings.ipynb)
+    * [Example Solutions](../exercises/week3/E3_solutions.ipynb)
+
+## Week 4 — More on Object-Oriented Programming
+* Lecture notes
+    * [More on OOP](../lectures/python/more_oop.ipynb)
+
+* Exercises
+    * [Project 1](../projects/project1/double_pendulum.ipynb)
+
+## Week 5 — More on Object-Oriented Programming
+* Lecture notes
+    * [More on OOP](../lectures/python/more_oop.ipynb)
+
+* Exercises
+    * [Project 1](../projects/project1/double_pendulum.ipynb)
+
+## Week 6 — Introduction to C++
+* Lecture notes
+    * [Introduction to C++](../lectures/cpp/intro_to_cpp.ipynb)
+    * [Arrays, References, Pointers](../lectures/cpp/arrays_and_pointers.ipynb)
+    
+* Exercises
+    * [Introductory exercises in C++](../exercises/week6/E6_intro_to_cpp.ipynb)
+    * [Example Solutions](../exercises/week6/E6_solutions.md)
+    * [Challenge 1—Primes by Trial Division](../exercises/week6/C1_primes_by_trial_division.ipynb)
+    * [Challenge 1—Example Solution](../exercises/week6/solutions/week6-challenge.md)
+    
+### Week 7 — Object-oriented Programming in C++
+* Lecture notes
+    * [Structs and Classes](../lectures/cpp/oop_in_cpp.ipynb)
+    * [Dynamic memory allocation and Dynamic Arrays](../lectures/cpp/dynamic_allocation_and_arrays.ipynb)
+    
+* Exercises
+    * [OOP in C++](../exercises/week7/E7_oop_in_cpp.ipynb)
+    * [Example Solutions](../exercises/week7/solutions)
+    * [Challenge 2—Primes by Sieve](../exercises/week7/C2_primes_by_sieve.ipynb)
+    * [Challenge 2—Example Solutions](../exercises/week7/solutions/week7-challenge)
+    
+### Additional C++ Exercises
+
+* [Exercises from Langtangen book translated to C++](../exercises/cpp/cpp_exercises.pdf)
+* [projecteuler.net](https://projecteuler.net/archives)
+
+## Week 8 — Data Structures and Algorithms
+
+* Lecture Notes
+    * [Linked Lists and Algorithm Analysis](../lectures/cpp/linked_lists_and_algorithm_analysis.ipynb)
+    * [Comparing Linked Lists and Dynamic Arrays, and Sorting Algorithms](../lectures/cpp/linkedlists_vs_dynamicarrays_and_sorting.ipynb)
+    
+* Exercises
+    * [Project 2](../projects/project2/project2.ipynb)
+    
+
+## Week 10 — Random Number Generators
+
+* Lecture Notes
+    * [Random Number Generators](../lectures/stochastic_processes/random_number_generators.ipynb)
+    * [Using Random Numbers](../lectures/stochastic_processes/using_random_numbers.ipynb)
+* Exercises
+    * [Random Number Generators](../exercises/week10/E8_random_number_generators.ipynb)
+    
+## Week 11 — Random Walks and Markov Processes
+
+* Lecture Notes
+    * [Random Walks](../lectures/stochastic_processes/random_walks_and_markov_processes.ipynb)
+    * [Markov Processes](../lectures/stochastic_processes/markov_chains.ipynb)
+* Exercises
+    * [Random Walks and Markov Processess](../exercises/week11/E9_random_walks_and_markov_process.ipynb)
+    * [Project 3](../projects/project3/project3.ipynb)
+    
+## Week 12 — Optmization
+
+* Lecture Notes
+    * [What is Software Optimization?](../lectures/optimization/software_optimization.ipynb)
+    * [Optmization and Mixed Programming](../lectures/optimization/optimization_and_mixed_programming.ipynb)
+* Exercises
+    * [Optmization and Mixed Programming](../exercises/week12/E10_optimization_and_mixed_programming.ipynb)
+    * [Example Solutions](../exercises/week12/E10_solutions.ipynb)
+    
+## Week 13 — Parallelization and Course Summary
+* Lecture Notes
+    * [Parallelization](../lectures/optimization/parallel_programming.ipynb) 
+    * [Course Summary](../lectures/summary/course_summary.ipynb)
+    * [Best Practices for Scientific Programming by Wilson et al](../lectures/week13/best_practices_for_scientific_computing.pdf)
+* Exercises
+    * [Parallelization](../exercises/week13/E11_parallel_programming.ipynb)
+    * [Example Solutions](../exercises/week13/E11_solutions.ipynb)
