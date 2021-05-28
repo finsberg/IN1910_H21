@@ -1,6 +1,9 @@
 
 # Build files
 book/_build
+book/docs/lectures/optimization/mandelbrot
+book/docs/lectures/optimization/mandelbrot_optimized
+
 # Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,visualstudiocode,c++
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks,visualstudiocode,c++
 
