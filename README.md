@@ -5,4 +5,4 @@ The content in this repository is available at github pages (<http://pages.githu
 
 The teachers for this semester is 
 - Jonas van den Brink (jonas@simula.no)
-- Henrik Finsberg (henriknf@simula)
+- Henrik Finsberg (henriknf@simula.no)

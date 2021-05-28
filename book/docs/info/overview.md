@@ -1,6 +1,6 @@
 # Overview of lectures and exercises
 
-## Week 1 — Course Overview, Python Refresh, Introduction to Git
+## Week 34 — Course Overview, Python Refresh, Introduction to Git
 
 * Lecture notes
     * [Course Overview](info.md)
@@ -11,7 +11,16 @@
     * [Python refresher and Git](../exercises/week1/E1_python_refresh_and_git.ipynb)
     * [Example Solutions](../exercises/week1/E1_solutions.ipynb)
    
-## Week 2 — Object-Oriented Programming
+# Week 35 - Exception handling and Testing and Object Oriented Programming
+
+* Lecture notes
+  * [Assertions, Exceptions, Testing](../lectures/testing_codestyle/writing_functioning_code.ipynb)
+  
+  * Exercises
+    * [Exercises on Unit Testing](../exercises/week3/E3_testing_and_docstrings.ipynb)
+    * [Example Solutions](../exercises/week3/E3_solutions.ipynb)
+
+## Week 36 — Object-Oriented Programming
 
 * Lecture notes
     * [Introduction to Object-Oriented Programming](../lectures/python/intro_to_oop.ipynb)
@@ -22,31 +31,22 @@
     * [Example Solutions](../exercises/week2/E2_solutions.ipynb)
 
 
-## Week 3 — Writing reliable and understandable code
-
+## Week 37 — More on Object-Oriented Programming, Code Style and Documentation
 * Lecture notes
-    * [Assertions, Exceptions, Testing](../lectures/testing_codestyle/writing_functioning_code.ipynb)
     * [Code Style and Documentation](../lectures/testing_codestyle/codestyle_and_docstrings.ipynb)
+    * [More on OOP](../lectures/python/more_oop.ipynb)
 
 * Exercises
-    * [Exercises on Unit Testing](../exercises/week3/E3_testing_and_docstrings.ipynb)
-    * [Example Solutions](../exercises/week3/E3_solutions.ipynb)
+    * [Project 1](../projects/project1/double_pendulum.ipynb)
 
-## Week 4 — More on Object-Oriented Programming
+## Week 38 — More on Object-Oriented Programming
 * Lecture notes
     * [More on OOP](../lectures/python/more_oop.ipynb)
 
 * Exercises
     * [Project 1](../projects/project1/double_pendulum.ipynb)
 
-## Week 5 — More on Object-Oriented Programming
-* Lecture notes
-    * [More on OOP](../lectures/python/more_oop.ipynb)
-
-* Exercises
-    * [Project 1](../projects/project1/double_pendulum.ipynb)
-
-## Week 6 — Introduction to C++
+## Week 39 — Introduction to C++
 * Lecture notes
     * [Introduction to C++](../lectures/cpp/intro_to_cpp.ipynb)
     * [Arrays, References, Pointers](../lectures/cpp/arrays_and_pointers.ipynb)
@@ -57,7 +57,7 @@
     * [Challenge 1—Primes by Trial Division](../exercises/week6/C1_primes_by_trial_division.ipynb)
     * [Challenge 1—Example Solution](../exercises/week6/solutions/week6-challenge.md)
     
-### Week 7 — Object-oriented Programming in C++
+### Week 40 — Object-oriented Programming in C++
 * Lecture notes
     * [Structs and Classes](../lectures/cpp/oop_in_cpp.ipynb)
     * [Dynamic memory allocation and Dynamic Arrays](../lectures/cpp/dynamic_allocation_and_arrays.ipynb)
@@ -73,7 +73,7 @@
 * [Exercises from Langtangen book translated to C++](../exercises/cpp/cpp_exercises.pdf)
 * [projecteuler.net](https://projecteuler.net/archives)
 
-## Week 8 — Data Structures and Algorithms
+## Week 42 — Data Structures and Algorithms
 
 * Lecture Notes
     * [Linked Lists and Algorithm Analysis](../lectures/cpp/linked_lists_and_algorithm_analysis.ipynb)
@@ -83,7 +83,7 @@
     * [Project 2](../projects/project2/project2.ipynb)
     
 
-## Week 10 — Random Number Generators
+## Week 43 — Random Number Generators
 
 * Lecture Notes
     * [Random Number Generators](../lectures/stochastic_processes/random_number_generators.ipynb)
@@ -91,7 +91,7 @@
 * Exercises
     * [Random Number Generators](../exercises/week10/E8_random_number_generators.ipynb)
     
-## Week 11 — Random Walks and Markov Processes
+## Week 44 — Random Walks and Markov Processes
 
 * Lecture Notes
     * [Random Walks](../lectures/stochastic_processes/random_walks_and_markov_processes.ipynb)
@@ -99,8 +99,15 @@
 * Exercises
     * [Random Walks and Markov Processess](../exercises/week11/E9_random_walks_and_markov_process.ipynb)
     * [Project 3](../projects/project3/project3.ipynb)
-    
-## Week 12 — Optmization
+
+## Week 45 - Introduction to data science
+
+* Lecture Notes
+    * TBW
+* Excercises
+    * TBW
+
+## Week 46 — Software Optimization and Mixed Programming
 
 * Lecture Notes
     * [What is Software Optimization?](../lectures/optimization/software_optimization.ipynb)
@@ -109,7 +116,7 @@
     * [Optmization and Mixed Programming](../exercises/week12/E10_optimization_and_mixed_programming.ipynb)
     * [Example Solutions](../exercises/week12/E10_solutions.ipynb)
     
-## Week 13 — Parallelization and Course Summary
+## Week 47 — Parallelization and Course Summary
 * Lecture Notes
     * [Parallelization](../lectures/optimization/parallel_programming.ipynb) 
     * [Course Summary](../lectures/summary/course_summary.ipynb)

@@ -14,36 +14,36 @@ Note that if you do not fill out the nettskjema then you will be placed in a pai
 
 - Project 0:
 
-  - Handed out: August 24th
-  - To be handed in before September 6th at 23.59
+  - Handed out: August 30th
+  - To be handed in before September 10th at 23.59
   - Should be done individually but you are free to collaborate with others
   - Maximum number of points: 10
 
 - Project 1:
 
-  - Handed out: September 14th
-  - To be handed in before: September 27th at 23.59
+  - Handed out: September 13th
+  - To be handed in before: September 24th at 23.59
   - Can be done in groups of two
   - Maximum number of points: 30
-  - Fill out the following [nettskjema](https://nettskjema.no/a/156213) if you want to do the project alone or together with a specific fellow student.
-  - If you cannot get in contact with your assigned partner, please fill out the [following nettskjema](https://nettskjema.no/a/156394)
+  - Fill out the following [nettskjema](https://nettskjema.no/a/) if you want to do the project alone or together with a specific fellow student.
+  - If you cannot get in contact with your assigned partner, please fill out the [following nettskjema](https://nettskjema.no/a/)
 
 - Project 2:
 
-  - Handed out: September 28th
-  - To be handed in before: October 18th at 23.59
+  - Handed out: October 18th
+  - To be handed in before: October 29th at 23.59
   - Can be done in groups of two
   - Maximum number of points: 30
-  - Fill out the following [nettskjema](https://nettskjema.no/a/156214) if you want to do the project alone or together with a specific fellow student.
-  - If you cannot get in contact with your assigned partner, please fill out the [following nettskjema](https://nettskjema.no/a/163948)
+  - Fill out the following [nettskjema](https://nettskjema.no/a/) if you want to do the project alone or together with a specific fellow student.
+  - If you cannot get in contact with your assigned partner, please fill out the [following nettskjema](https://nettskjema.no/a/)
 
 - Project 3
-  - Handed out: October 26th
-  - To be handed in before: November 8th at 23.59
+  - Handed out: November 1st
+  - To be handed in before: November 12th at 23.59
   - Can be done in groups of two
   - Maximum number of points: 30
-  - Fill out the following [nettskjema](https://nettskjema.no/a/156215) if you want to do the project alone or together with a specific fellow student.
-  - If you cannot get in contact with your assigned partner, please fill out the [following nettskjema](https://nettskjema.no/a/167943)
+  - Fill out the following [nettskjema](https://nettskjema.no/a/) if you want to do the project alone or together with a specific fellow student.
+  - If you cannot get in contact with your assigned partner, please fill out the [following nettskjema](https://nettskjema.no/a/)
 
 
 ## Weekly exercises
@@ -56,12 +56,12 @@ TBW
 
 ## Group sessions
 
-Group sessions will be given every week. Here you can get help to the weekly exercises as well as the project from one of the teaching assistants. Everyone will be assigned to one group. See https://www.uio.no/studier/emner/matnat/ifi/IN1910/h20/timeplan for more info.
+Group sessions will be given every week. Here you can get help to the weekly exercises as well as the project from one of the teaching assistants. Everyone will be assigned to one group. See https://www.uio.no/studier/emner/matnat/ifi/IN1910/h21/timeplan for more info.
 
 ### Teaching Assistants
 
-- Group 1: Johannes [johannvm@math.uio.no](mailto:johannvm@math.uio.no)
-- Group 2: Tonny [t.n.d.do@fys.uio.no](mailto:t.n.d.do@fys.uio.no)
-- Group 3: Nicolai  [nicolai.haug@fys.uio.no](mailto:nicolai.haug@fys.uio.no)
-- Group 4: Jan Ole [j.o.f.akerholm@fys.uio.no](mailto:j.o.f.akerholm@fys.uio.no)
-- Group 5: Amund [amundis@student.matnat.uio.no](mailto:amundis@student.matnat.uio.no)
+- Group 1: TBD
+- Group 2: TBD
+- Group 3: TBD
+- Group 4: TBD
+- Group 5: TBD
