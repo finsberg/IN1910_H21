@@ -1,7 +1,7 @@
 # Coursework
 
 There will be handed out four projects during the semester, and it will be possible to collect points on each project. A total of 100 points can be collected in total. 10 points can be collected at the first project, while the remaining projects all give maximum 30 points.
-You need to get 50% correct on each project (5 points on project 1 and 15 points on the remaining projects) and 70 points in total in order to qualify to take the oral exam.
+You need to get at least 60% correct on each project to qualify for the final oral exam.
 
 Note that in this course you will only get a pass/fail grade. However you can, after completing the course, request a diploma which will state how many points your were able to get.
 

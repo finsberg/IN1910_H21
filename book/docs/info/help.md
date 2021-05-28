@@ -1,8 +1,10 @@
 # Getting help or give feedback
 
-## Padlet
+## Mattermost
+TBW
 
-In this class we have also set up [padlet](https://uio.padlet.org/krihus/in1910) which you can use to ask questions about anything related to the course as well as help your fellow students. Here you can ask questions anonymously and also comment on other questions.
+## Github Issues
+TBW
 
 ## Feedback from Students
 
