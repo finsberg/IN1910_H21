@@ -5,7 +5,7 @@
 * Lecture notes
     * [Course Overview](info.md)
     * [A quick refresh of Python](../lectures/python/python_intro.ipynb)
-    * [An introduction to Git](../lectures/git/version_control_with_git.ipynb)
+    * [An introduction to Git](../lectures/git/version_control_with_git.md)
     
 * Exercises
     * [Python refresher and Git](../exercises/week1/E1_python_refresh_and_git.ipynb)
@@ -14,10 +14,10 @@
 ## Week 35 - Exception handling and Testing and Object Oriented Programming
 
 * Lecture notes
-  * [Assertions, Exceptions, Testing](../lectures/testing_codestyle/writing_functioning_code.ipynb)
+  * [Assertions, Exceptions, Testing](../lectures/testing_codestyle/writing_functioning_code.md)
   
   * Exercises
-    * [Exercises on Unit Testing](../exercises/week3/E3_testing_and_docstrings.ipynb)
+    * [Exercises on Unit Testing](../exercises/week3/E3_testing_and_docstrings.md)
     * [Example Solutions](../exercises/week3/E3_solutions.ipynb)
 
 ## Week 36 — Object-Oriented Programming
@@ -33,7 +33,7 @@
 
 ## Week 37 — More on Object-Oriented Programming, Code Style and Documentation
 * Lecture notes
-    * [Code Style and Documentation](../lectures/testing_codestyle/codestyle_and_docstrings.ipynb)
+    * [Code Style and Documentation](../lectures/testing_codestyle/codestyle_and_docstrings.md)
     * [More on OOP](../lectures/python/more_oop.ipynb)
 
 * Exercises
@@ -48,8 +48,8 @@
 
 ## Week 39 — Introduction to C++
 * Lecture notes
-    * [Introduction to C++](../lectures/cpp/intro_to_cpp.ipynb)
-    * [Arrays, References, Pointers](../lectures/cpp/arrays_and_pointers.ipynb)
+    * [Introduction to C++](../lectures/cpp/intro_to_cpp.md)
+    * [Arrays, References, Pointers](../lectures/cpp/arrays_and_pointers.md)
     
 * Exercises
     * [Introductory exercises in C++](../exercises/week6/E6_intro_to_cpp.ipynb)
@@ -59,8 +59,8 @@
     
 ## Week 40 — Object-oriented Programming in C++
 * Lecture notes
-    * [Structs and Classes](../lectures/cpp/oop_in_cpp.ipynb)
-    * [Dynamic memory allocation and Dynamic Arrays](../lectures/cpp/dynamic_allocation_and_arrays.ipynb)
+    * [Structs and Classes](../lectures/cpp/oop_in_cpp.md)
+    * [Dynamic memory allocation and Dynamic Arrays](../lectures/cpp/dynamic_allocation_and_arrays.md)
     
 * Exercises
     * [OOP in C++](../exercises/week7/E7_oop_in_cpp.ipynb)
@@ -76,8 +76,8 @@
 ## Week 42 — Data Structures and Algorithms
 
 * Lecture Notes
-    * [Linked Lists and Algorithm Analysis](../lectures/cpp/linked_lists_and_algorithm_analysis.ipynb)
-    * [Comparing Linked Lists and Dynamic Arrays, and Sorting Algorithms](../lectures/cpp/linkedlists_vs_dynamicarrays_and_sorting.ipynb)
+    * [Linked Lists and Algorithm Analysis](../lectures/cpp/linked_lists_and_algorithm_analysis.md)
+    * [Comparing Linked Lists and Dynamic Arrays, and Sorting Algorithms](../lectures/cpp/linkedlists_vs_dynamicarrays_and_sorting.md)
     
 * Exercises
     * [Project 2](../projects/project2/project2.ipynb)
@@ -119,7 +119,7 @@
 ## Week 47 — Parallelization and Course Summary
 * Lecture Notes
     * [Parallelization](../lectures/optimization/parallel_programming.ipynb) 
-    * [Course Summary](../lectures/summary/course_summary.ipynb)
+    * [Course Summary](../lectures/summary/course_summary.md)
     * [Best Practices for Scientific Programming by Wilson et al](../lectures/week13/best_practices_for_scientific_computing.pdf)
 * Exercises
     * [Parallelization](../exercises/week13/E11_parallel_programming.ipynb)
