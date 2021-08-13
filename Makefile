@@ -31,9 +31,12 @@ show:  ## Open index page
 
 clean: clean-build clean-pyc clean-ipynb ## remove all build, test, coverage and Python artifacts
 
-gh-pages-deploy: docs  ## Deploy to github pages
+checkout-pages:
 	git checkout gh-pages
 	git merge master -m "Merge master"
+
+
+gh-pages-deploy: docs checkout-pages  ## Deploy to github pages
 	git add -f book/_build/html && git commit -m "Add html docs"
 	git subtree push --prefix book/_build/html origin gh-pages
 	git checkout master
