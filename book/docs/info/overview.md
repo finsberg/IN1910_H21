@@ -11,7 +11,7 @@
     * [Python refresher and Git](../exercises/week1/E1_python_refresh_and_git.ipynb)
     * [Example Solutions](../exercises/week1/E1_solutions.ipynb)
    
-# Week 35 - Exception handling and Testing and Object Oriented Programming
+## Week 35 - Exception handling and Testing and Object Oriented Programming
 
 * Lecture notes
   * [Assertions, Exceptions, Testing](../lectures/testing_codestyle/writing_functioning_code.ipynb)
@@ -57,7 +57,7 @@
     * [Challenge 1—Primes by Trial Division](../exercises/week6/C1_primes_by_trial_division.ipynb)
     * [Challenge 1—Example Solution](../exercises/week6/solutions/week6-challenge.md)
     
-### Week 40 — Object-oriented Programming in C++
+## Week 40 — Object-oriented Programming in C++
 * Lecture notes
     * [Structs and Classes](../lectures/cpp/oop_in_cpp.ipynb)
     * [Dynamic memory allocation and Dynamic Arrays](../lectures/cpp/dynamic_allocation_and_arrays.ipynb)

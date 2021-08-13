@@ -44,4 +44,4 @@ The symbols indicate what people often use the languges for, with the globe mean
 
 The spectrum ranking is just one of many rankings, and it doesn't necessarily mean that much. The main reason we bring it up is to point out that knowing Python and a bit of C++ will most likely be very useful if you continue doing *any* kind of programming in your future, be it scientific or other.
 
-
+Another annual review is the [Stack overflow developer survey](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages) which shows that python is the most wanted language in 2020.

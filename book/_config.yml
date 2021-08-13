@@ -43,3 +43,7 @@ latex:
     targetname: book.tex
 
 exclude_patterns: [docs/lectures/cpp/binary_search_trees_*]
+
+sphinx:
+  extra_extensions:
+    - sphinx_inline_tabs

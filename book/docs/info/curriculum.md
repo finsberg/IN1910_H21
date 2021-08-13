@@ -19,7 +19,7 @@ IN1900 is using a new book this semester called [*Introduction to Scientific Pro
 All teaching materials are shared on a git repository on the UiO Github server. You will need to log in with your UiO username and password. You will soon learn how to use Git repositories.
 The teaching material are published using something called GitHub pages which you can access go going to the following link:
 
-* https://pages.github.uio.no/IN1910/IN1910_H20
+* https://pages.github.uio.no/IN1910/IN1910_H21
 
 These lecture notes are generated from Jupyter notebooks which you can find here
 
@@ -39,5 +39,6 @@ There are also a lot of good resources online, including
 - <https://www.learnpython.org>
 - <https://automatetheboringstuff.com>
 - <https://jakevdp.github.io/WhirlwindTourOfPython/index.html>
+- <https://inventwithpython.com/beyond/>
 
 On YouTube I would also recommend watching a [tutorial series on how to set up a python development environment](https://www.youtube.com/playlist?list=PL-osiE80TeTt66h8cVpmbayBKlMTuS55y), and also the [Python beginner tutorial](https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7) by the same author.

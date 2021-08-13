@@ -1,7 +1,10 @@
-# Installation instruction
+# Installation instructions
 
-## Installing python
-TBW
+We recommend everyone to download and install [Anaconda](https://docs.anaconda.com/anaconda/install/index.html). You are of course free to download and install python and the third party packages in other ways.
+Note that if you install anaconda, then you will end up installing a lot more packages than you need to. In you don't want that, then one alternative is to install [Miniconda](https://docs.conda.io/en/latest/miniconda.html), download the [following environment file](https://raw.github.uio.no/IN1910/IN1910_H21/master/environment.yml) that contains all the necessary package and install them in a [conda environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
+```
+conda env create -f environment.yml
+```
 
 ## Installing third party packages with conda
 
@@ -10,27 +13,51 @@ For the course IN1910 you need to install the following software:
 - Python version 3.7 or newer
 - [SciPy stack](https://www.scipy.org/stackspec.html)
 - [pytest](https://docs.pytest.org/en/stable/getting-started.html)
+- [pybind11](https://pybind11.readthedocs.io/en/stable/)
 
-This can be installed using the [Anaconda distribution](https://www.anaconda.com/distribution/#download-section) which is recommended. There are also other options to install [python](https://realpython.com/installing-python/) depending on your operating system. You may also consult the [guide from IN1900](https://www.uio.no/studier/emner/matnat/ifi/IN1900/h18/ressurser/installering.html). In addition you need to install
+This can be installed using the [Anaconda distribution](https://www.anaconda.com/distribution/#download-section) which is recommended. There are also other options to install [python](https://realpython.com/installing-python/) depending on your operating system. You may also consult the [guide from IN1900](https://www.uio.no/studier/emner/matnat/ifi/IN1900/h18/ressurser/installering.html).
 
-- [Git](https://git-scm.com/downloads)
-- A text-editor. 
+### Virtual environments
+The main purpose of a virtual environment is to create an isolated environment where you install all your dependencies. Say that you are working on a project where you need a specific version of a package (say numpy). First thing you might wonder is *why would you need a specific version of numpy?*. Well, numpy evolves all the time. New functionality is added and some functions might be deprecated and removed. If you are working on a large code base that depends on some old numpy functionality that is removed in the most recent version, then you can either try to upgrade the package to support the most recent version of numpy, or you can just stick to an older version. 
 
-For the C++ part of the course you will also need a C++ compiler.
+Say now, that you are starting on a completely new project, and you want to make use of some brand new functionality in numpy. How do you handle that, without breaking the existing project? This is where virtual environments comes to play. 
 
-An alternative to install this software on your own computers is to [connect to an IFI-machine remotely](https://termvakt.uio.no/Fjerninnlogging). This is a good alternative if you have technical problems on you own machine.
+When using conda, it is easy to have multiple [conda environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) which are virtual environment within the conda ecosystem. To create a new environment, simply do
+```
+conda create --name IN1910
+```
+This will ask you to confirm that you want to create a new environment called `IN1910`. Type `y` and hit enter. To activate this newly created environment you type
+```
+conda activate IN1910
+```
+Now you can install a package that you need, e.g
+```
+conda install numpy
+```
+To deactivate the conda environment you can use the command
+```
+conda deactivate
+```
 
 
 ## Git
-TBW
+Please consult [GitHub docs](https://docs.github.com/en/get-started/quickstart/set-up-git) for a very good guide on how to set up git.
+You need to first install Git locally on your laptop. Next you need to make sure that you are able to [connect to Github using either HTTPS or SSH.](https://docs.github.com/en/get-started/quickstart/set-up-git#next-steps-authenticating-with-github-from-git) 
 
 ## Choosing an editor
 
-Popular choices includes
+When working with code development you need a proper code editor. 
+Some popular choices includes
   - [Visual Studio Code](https://code.visualstudio.com) (This is the one that will be used in the lectures)
   - [Sublime Text](https://www.sublimetext.com)
   - [Atom](https://atom.io)
   - [Emacs](https://www.gnu.org/software/emacs/)
   - [Vim](https://www.vim.org/download.php)
 
-### Useful extensions
+For a more extensive list, please checkout the [Stackoverflow survey from 2019](https://insights.stackoverflow.com/survey/2019#development-environments-and-tools)
+
+### Which editors will the teachers use?
+Henrik will be using Visual Studio Code, while Jonas will be using Sublime Text.
+
+## C++
+Please see the [C++ installation guide](cpp_compiler.md)

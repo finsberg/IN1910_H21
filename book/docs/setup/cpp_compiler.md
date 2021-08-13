@@ -9,6 +9,9 @@ Both of these compilers can be used on Mac and Linux. macOS uses Clang as the de
 
 For Windows users, we recommend running Ubuntu under Windows Subsystem for Linux (WSL).
 
+## Using Visual Studio Code
+A very good alternative that can be used on all platforms is to use Visual Studio Code with the native C/C++ extension. Please consult the [following link](https://code.visualstudio.com/docs/languages/cpp) for more info on how to set this up. Here they will also guide you through how to [install a compiler](https://code.visualstudio.com/docs/languages/cpp#_install-a-compiler)
+
 ## Linux
 All major Linux distributions offer packages for a C++ compiler. To see if you already have a C++ compiler installed, you can try running the following command from a terminal
 ```
@@ -53,6 +56,7 @@ Visual Studio Code has an extension that makes it easy to work with C++ code in 
 
 We recommend that you install the app for Ubuntu 20.04.
 
+TODO: Elaborate more on the different options for windows
 In the Ubuntu terminal, you will be able to compile and run C++ programs, and `git` is also installed.
 
 ## Testing the compiler

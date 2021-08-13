@@ -30,21 +30,20 @@
         - file: docs/lectures/python/intro_to_oop.ipynb
         - file: docs/lectures/python/classes_methods_decorators.ipynb
         - file: docs/lectures/python/more_oop.ipynb
-    - file: docs/lectures/git/version_control_with_git.ipynb
+    - file: docs/lectures/git/version_control_with_git.md
     - file: docs/lectures/testing_codestyle/testing_codestyle.md
       sections:
-        - file: docs/lectures/testing_codestyle/writing_functioning_code.ipynb
+        - file: docs/lectures/testing_codestyle/writing_functioning_code.md
         - file: docs/lectures/testing_codestyle/codestyle_and_docstrings.ipynb
     - file: docs/lectures/cpp/cpp.md
       sections:
-        - file: docs/lectures/cpp/intro_to_cpp.ipynb
-        - file: docs/lectures/cpp/arrays_and_pointers.ipynb
-        - file: docs/lectures/cpp/oop_in_cpp.ipynb
-        - file: docs/lectures/cpp/dynamic_allocation_and_arrays.ipynb
-        - file: docs/lectures/cpp/linked_lists_and_algorithm_analysis.ipynb
-        - file: docs/lectures/cpp/linkedlists_vs_dynamicarrays_and_sorting.ipynb
-        - file: docs/lectures/cpp/binary_search_trees_1.ipynb
-        - file: docs/lectures/cpp/binary_search_trees_2.ipynb
+        - file: docs/lectures/cpp/intro_to_cpp.md
+        - file: docs/lectures/cpp/arrays_and_pointers.md
+        - file: docs/lectures/cpp/oop_in_cpp.md
+        - file: docs/lectures/cpp/dynamic_allocation_and_arrays.md
+        - file: docs/lectures/cpp/linked_lists_and_algorithm_analysis.md
+        - file: docs/lectures/cpp/linkedlists_vs_dynamicarrays.md
+        - file: docs/lectures/cpp/sorting.md
     - file: docs/lectures/stochastic_processes/stochastic_processes.md
       sections:
         - file: docs/lectures/stochastic_processes/random_number_generators.ipynb
@@ -57,7 +56,7 @@
         - file: docs/lectures/optimization/software_optimization.ipynb
         - file: docs/lectures/optimization/optimization_and_mixed_programming.ipynb
         - file: docs/lectures/optimization/parallel_programming.ipynb
-    - file: docs/lectures/summary/course_summary.ipynb
+    - file: docs/lectures/summary/course_summary.md
 
 - part: Exercises
   chapters:
@@ -88,8 +87,8 @@
 
 - part: Projects
   chapters:
-    - file: docs/projects/how_to_project_work.ipynb
-    - file: docs/projects/project0/project0.ipynb
+    - file: docs/projects/how_to_project_work.md
+    - file: docs/projects/project0/project0.md
     - file: docs/projects/project1/double_pendulum.ipynb
     - file: docs/projects/project2/project2.ipynb
     - file: docs/projects/project3/project3.ipynb
