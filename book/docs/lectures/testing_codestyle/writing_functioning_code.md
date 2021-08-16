@@ -261,7 +261,7 @@ We use the rest of this lecture to show example of how to write unit tests in `p
 
 Before you continue, you should make sure that you have `pytest` installed. `pytest` is not part of the standard library, but can easily be installed with e.g `pip`
 
-```python
+```
 !pip3 install pytest
 ```
 
@@ -817,7 +817,7 @@ There are different ways to measure "coverage", but the simplest way is usually 
 
 `pytest` comes with many [plugins](https://pytest.readthedocs.io/en/2.7.3/plugins_index/index.html), and one of them is `pytest-cov` which can be used to check coverage for us when we run our unit tests. To use it you first need to install the plugin
 
-```python
+```
 !pip install pytest-cov
 ```
 

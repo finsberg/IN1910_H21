@@ -1,10 +1,11 @@
 # Installation instructions
 
 We recommend everyone to download and install [Anaconda](https://docs.anaconda.com/anaconda/install/index.html). You are of course free to download and install python and the third party packages in other ways.
-Note that if you install anaconda, then you will end up installing a lot more packages than you need to. In you don't want that, then one alternative is to install [Miniconda](https://docs.conda.io/en/latest/miniconda.html), download the [following environment file](https://raw.github.uio.no/IN1910/IN1910_H21/master/environment.yml) that contains all the necessary package and install them in a [conda environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
+Note that if you install anaconda, then you will end up installing a lot more packages than you need to. In you don't want that, then one alternative is to install [Miniconda](https://docs.conda.io/en/latest/miniconda.html), download the [following environment file](https://gist.githubusercontent.com/finsberg/95b88d7e039a76466ba667c3c9d2850e/raw/80cc0a36c74458f15c55db6a2518094907906970/environment.yml) that contains all the necessary package and install them in a [conda environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) with the command
 ```
 conda env create -f environment.yml
 ```
+This will create a new environment called `IN1910`, see [Virtual ennvironments](#virtual-environments) for more info about virtual environments.
 
 ## Installing third party packages with conda
 
@@ -39,6 +40,26 @@ To deactivate the conda environment you can use the command
 conda deactivate
 ```
 
+#### Troubleshoot virtual environments
+Once you have activated the virtual environment using the command
+```
+conda activate IN1910
+```
+you can verify that you have successfully activated the environment.
+Do do so you can check which `python` you are using by executing the command
+```
+python -c "import sys; print(sys.executable)"
+```
+In my case the result was `/Users/henriknf/miniconda3/envs/IN1910/bin/python`. You will probably not have the exact same results, but you should at least see `IN1910` in the path to python.
+If you don't see that then the environment is not properly activated. 
+In this case try to deactivate the conda environment a few times and activate again, i.e
+```
+conda deactivate
+conda deactivate
+conda deactivate
+conda activate IN1910
+```
+If you still don't see `IN1910` in the path to the `python` executable, then reach out to one of us or ask fellow student.
 
 ## Git
 Please consult [GitHub docs](https://docs.github.com/en/get-started/quickstart/set-up-git) for a very good guide on how to set up git.
@@ -48,13 +69,13 @@ You need to first install Git locally on your laptop. Next you need to make sure
 
 When working with code development you need a proper code editor. 
 Some popular choices includes
-  - [Visual Studio Code](https://code.visualstudio.com) (This is the one that will be used in the lectures)
-  - [Sublime Text](https://www.sublimetext.com)
+  - [Visual Studio Code](https://code.visualstudio.com) (This is the one that will be used by Henrik in the lectures)
+  - [Sublime Text](https://www.sublimetext.com)  (This is the one that will be used by Jonas in the lectures)
   - [Atom](https://atom.io)
   - [Emacs](https://www.gnu.org/software/emacs/)
   - [Vim](https://www.vim.org/download.php)
 
-For a more extensive list, please checkout the [Stackoverflow survey from 2019](https://insights.stackoverflow.com/survey/2019#development-environments-and-tools)
+For a more extensive list, please checkout the [Stackoverflow survey from 2021](https://insights.stackoverflow.com/survey/2021#section-most-popular-technologies-integrated-development-environment)
 
 ### Which editors will the teachers use?
 Henrik will be using Visual Studio Code, while Jonas will be using Sublime Text.

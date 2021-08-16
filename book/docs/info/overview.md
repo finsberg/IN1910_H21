@@ -52,10 +52,10 @@
     * [Arrays, References, Pointers](../lectures/cpp/arrays_and_pointers.md)
     
 * Exercises
-    * [Introductory exercises in C++](../exercises/week6/E6_intro_to_cpp.ipynb)
+    * [Introductory exercises in C++](../exercises/week6/E6_intro_to_cpp.md)
     * [Example Solutions](../exercises/week6/E6_solutions.md)
-    * [Challenge 1—Primes by Trial Division](../exercises/week6/C1_primes_by_trial_division.ipynb)
-    * [Challenge 1—Example Solution](../exercises/week6/solutions/week6-challenge.md)
+    * [Challenge 1—Primes by Trial Division](../exercises/week6/C1_primes_by_trial_division.md)
+    * [Challenge 1—Example Solution](../exercises/week6/week6-challenge.md)
     
 ## Week 40 — Object-oriented Programming in C++
 * Lecture notes
@@ -66,18 +66,19 @@
     * [OOP in C++](../exercises/week7/E7_oop_in_cpp.ipynb)
     * [Example Solutions](../exercises/week7/solutions)
     * [Challenge 2—Primes by Sieve](../exercises/week7/C2_primes_by_sieve.ipynb)
-    * [Challenge 2—Example Solutions](../exercises/week7/solutions/week7-challenge)
+    * [Challenge 2—Example Solutions](../exercises/week7/solutions/week7-challenge.md)
     
 ### Additional C++ Exercises
 
-* [Exercises from Langtangen book translated to C++](../exercises/cpp/cpp_exercises.pdf)
+* [Exercises from Langtangen book translated to C++](../exercises/cpp_exercises.pdf)
 * [projecteuler.net](https://projecteuler.net/archives)
 
 ## Week 42 — Data Structures and Algorithms
 
 * Lecture Notes
     * [Linked Lists and Algorithm Analysis](../lectures/cpp/linked_lists_and_algorithm_analysis.md)
-    * [Comparing Linked Lists and Dynamic Arrays, and Sorting Algorithms](../lectures/cpp/linkedlists_vs_dynamicarrays_and_sorting.md)
+    * [Comparing Linked Lists and Dynamic Arrays](../lectures/cpp/linkedlists_vs_dynamicarrays.md)
+    * [Sorting Algorithms](../lectures/cpp/sorting.md)
     
 * Exercises
     * [Project 2](../projects/project2/project2.ipynb)
@@ -120,7 +121,6 @@
 * Lecture Notes
     * [Parallelization](../lectures/optimization/parallel_programming.ipynb) 
     * [Course Summary](../lectures/summary/course_summary.md)
-    * [Best Practices for Scientific Programming by Wilson et al](../lectures/week13/best_practices_for_scientific_computing.pdf)
+    * [Best Practices for Scientific Programming by Wilson et al](../lectures/summary/best_practices_for_scientific_computing.pdf)
 * Exercises
     * [Parallelization](../exercises/week13/E11_parallel_programming.ipynb)
-    * [Example Solutions](../exercises/week13/E11_solutions.ipynb)

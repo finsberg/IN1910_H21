@@ -16,7 +16,7 @@ The paper by Wilson et al goes through and identifies what they think are the mo
 
 1. Write programs for people, not computers
 2. Let the computer do the work
-3. Make incremental cbhanges
+3. Make incremental changes
 4. Don't repeat yourself (or others)
 5. Plan for mistakes
 6. Optimize code only after it works correctly
