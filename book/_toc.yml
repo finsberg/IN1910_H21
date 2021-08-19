@@ -1,6 +1,7 @@
 - file: README.md
 - part: General information
   chapters:
+    - file: docs/info/info.md
     - file: docs/info/overview.md
     - file: docs/info/curriculum.md
     - file: docs/info/motivation.md
