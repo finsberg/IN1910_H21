@@ -1,11 +1,9 @@
 - file: README.md
 - part: General information
   chapters:
-    - file: docs/info/info.md
-    - file: docs/info/lectures.md
     - file: docs/info/overview.md
-    - file: docs/info/coursework.md
     - file: docs/info/curriculum.md
+    - file: docs/info/motivation.md
     - file: docs/info/exam.md
     - file: docs/info/help.md
 
@@ -14,8 +12,9 @@
     - file: docs/setup/setup.md
     - file: docs/setup/cpp_compiler.md
 
-# - part: Slides
-#   chapters:
+- part: Slides
+  chapters:
+    - file: docs/slides/L02/L2_git.md
 
 - part: Lecture videos
   chapters:

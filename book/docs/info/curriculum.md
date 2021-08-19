@@ -1,6 +1,6 @@
 # Curriculum
 
-All that is written in the lecture notes and the four mandatory projects should be considered as the curriculum.
+The lecture notes and the four mandatory projects are the curriculum of IN1910. 
 
 ## Curriculum and Teaching Materials
 

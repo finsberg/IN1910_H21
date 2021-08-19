@@ -1,11 +1,12 @@
 # Lectures
-First lecture is Tuesday August 24th in OJD Simula. 
-The lectures will be held physically in OJD Simula as well as digitally at Zoom. 
-In addition, we will record the lectures at upload the recording to the course website.
 
-However, note that changes in the format of the lectures might change during the semester due to the pandemic situation.
-More info will come closer to the start of the semester.
+There are two lectures each week (with the exception of Week 41), at
+* Tuesdays 12:15-14:00
+* Thursdays 12:15-14:00
 
+Lectures are held physically in OJD Simula as well as digitally on Zoom. In addition we will record the Zoom lecture (i.e., screen grab + audio) and upload to the course website.
+
+Please note that the format of lectures can change during the semester due to the pandemic situation. Please pay attention to messages given on the course website.
 
 ## Lecture Plan
 
@@ -26,4 +27,4 @@ At of the start of the semester, the lecture plan is as follows
 - Week 46 - Software Optimization and Mixed Programming
 - Week 47 - Parallel programming and Course Summary
 
-Note however, that this can, and probably will, change somewhat during the semester.
+Please note that the lecture plan can change somewhat during the semester if need be, though we will keep you informed about any major changes that are made.

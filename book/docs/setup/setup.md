@@ -1,7 +1,7 @@
 # Installation instructions
 
 We recommend everyone to download and install [Anaconda](https://docs.anaconda.com/anaconda/install/index.html). You are of course free to download and install python and the third party packages in other ways.
-Note that if you install anaconda, then you will end up installing a lot more packages than you need to. In you don't want that, then one alternative is to install [Miniconda](https://docs.conda.io/en/latest/miniconda.html), download the [following environment file](https://gist.githubusercontent.com/finsberg/95b88d7e039a76466ba667c3c9d2850e/raw/80cc0a36c74458f15c55db6a2518094907906970/environment.yml) that contains all the necessary package and install them in a [conda environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) with the command
+Note that if you install anaconda, then you will end up installing a lot more packages than you need to. In you don't want that, then one alternative is to install [Miniconda](https://docs.conda.io/en/latest/miniconda.html), download the [following environment file](https://gist.githubusercontent.com/finsberg/95b88d7e039a76466ba667c3c9d2850e/raw/environment.yml) that contains all the necessary package and install them in a [conda environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) with the command
 ```
 conda env create -f environment.yml
 ```
