@@ -14,6 +14,7 @@ parts:
   - file: docs/setup/cpp_compiler.md
 - caption: Slides
   chapters:
+  - file: docs/slides/L01/L1_course_overview.ipynb
   - file: docs/slides/L02/L2_git.md
 - caption: Lecture videos
   chapters:

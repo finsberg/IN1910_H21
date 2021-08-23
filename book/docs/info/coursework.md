@@ -60,8 +60,23 @@ Group sessions will be given every week. Here you can get help to the weekly exe
 
 ### Teaching Assistants
 
-- Group 1: TBD
-- Group 2: TBD
-- Group 3: TBD
-- Group 4: TBD
-- Group 5: TBD
+- Group 1: 
+  - name: Anders Bråte 
+  - github username: andebraa 
+  - email: andebraa@mail.uio.no
+- Group 2: 
+  - name: Stian Damman 
+  -  github username: sldamman 
+  -   email: sldamman@mail.uio.no
+- Group 3: 
+  - name: Liana-Andreea Maciovan 
+  -  github username: lianaanm
+  -  email: lianaanm@mail.uio.no
+- Group 4: 
+  - name: Magnus Hansen
+  - github username: maghans
+  - email: maghans@mail.uio.no
+- Group 5: 
+  - name: TBD
+  - github username: TBD
+  - email: TBD
