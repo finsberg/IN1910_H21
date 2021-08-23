@@ -19,12 +19,12 @@ Most weeks we have weekly exercises that are not mandatory, but strongly recomme
 There are weekly group sessions where you get help with both the weekly exercises, as well sa project work from a teaching assistant/grouppelærer. Everyone is assigned to a given group and you can only attend the group session to which you belong. To find the time and location of your group, see https://www.uio.no/studier/emner/matnat/ifi/IN1910/h21/timeplan. In addition to the physical group sessions, there is a weekly digital group session where anyone who wants to can join. The weekly digital group is help on Fridays at TBD at the following Zoom link: (Link to be added later).
 
 
-## Week by week overview
+### Week by week overview
 
 #### Week 34 — Course Overview, Python Refresh, Introduction to Git
 
 * Lecture notes
-    * [Course Overview](info.md)
+    * [Course Overview](overview.md)
     * [A quick refresh of Python](../lectures/python/python_intro.ipynb)
     * [An introduction to Git](../lectures/git/version_control_with_git.md)
     

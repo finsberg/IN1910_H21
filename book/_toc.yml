@@ -1,95 +1,89 @@
-- file: README.md
-- part: General information
+format: jb-book
+root: README.md
+parts:
+- caption: General information
   chapters:
-    - file: docs/info/info.md
-    - file: docs/info/overview.md
-    - file: docs/info/curriculum.md
-    - file: docs/info/motivation.md
-    - file: docs/info/exam.md
-    - file: docs/info/help.md
-
-- part: Setting up your computer for IN1910
+  - file: docs/info/overview.md
+  - file: docs/info/curriculum.md
+  - file: docs/info/motivation.md
+  - file: docs/info/exam.md
+  - file: docs/info/help.md
+- caption: Setting up your computer for IN1910
   chapters:
-    - file: docs/setup/setup.md
-    - file: docs/setup/cpp_compiler.md
-
-- part: Slides
+  - file: docs/setup/setup.md
+  - file: docs/setup/cpp_compiler.md
+- caption: Slides
   chapters:
-    - file: docs/slides/L02/L2_git.md
-
-- part: Lecture videos
+  - file: docs/slides/L02/L2_git.md
+- caption: Lecture videos
   chapters:
-    - file: docs/videos/videos_H20.md
-    - file: docs/videos/videos_H19.md
-
-- part: Lectures
+  - file: docs/videos/videos_H20.md
+  - file: docs/videos/videos_H19.md
+- caption: Lectures
   chapters:
-    - file: docs/lectures/python/python_intro.ipynb
-    - file: docs/lectures/python/python_oop.md
-      sections:
-        - file: docs/lectures/python/intro_to_oop.ipynb
-        - file: docs/lectures/python/classes_methods_decorators.ipynb
-        - file: docs/lectures/python/more_oop.ipynb
-    - file: docs/lectures/git/version_control_with_git.md
-    - file: docs/lectures/testing_codestyle/testing_codestyle.md
-      sections:
-        - file: docs/lectures/testing_codestyle/writing_functioning_code.md
-        - file: docs/lectures/testing_codestyle/codestyle_and_docstrings.ipynb
-    - file: docs/lectures/cpp/cpp.md
-      sections:
-        - file: docs/lectures/cpp/intro_to_cpp.md
-        - file: docs/lectures/cpp/arrays_and_pointers.md
-        - file: docs/lectures/cpp/oop_in_cpp.md
-        - file: docs/lectures/cpp/dynamic_allocation_and_arrays.md
-        - file: docs/lectures/cpp/linked_lists_and_algorithm_analysis.md
-        - file: docs/lectures/cpp/linkedlists_vs_dynamicarrays.md
-        - file: docs/lectures/cpp/sorting.md
-    - file: docs/lectures/stochastic_processes/stochastic_processes.md
-      sections:
-        - file: docs/lectures/stochastic_processes/random_number_generators.ipynb
-        - file: docs/lectures/stochastic_processes/using_random_numbers.ipynb
-        - file: docs/lectures/stochastic_processes/random_walks_and_markov_processes.ipynb
-        - file: docs/lectures/stochastic_processes/solving_the_1D_diffusion_equation.ipynb
-        - file: docs/lectures/stochastic_processes/markov_chains.ipynb
-    - file: docs/lectures/optimization/optimization.md
-      sections:
-        - file: docs/lectures/optimization/software_optimization.ipynb
-        - file: docs/lectures/optimization/optimization_and_mixed_programming.ipynb
-        - file: docs/lectures/optimization/parallel_programming.ipynb
-    - file: docs/lectures/summary/course_summary.md
-
-- part: Exercises
+  - file: docs/lectures/python/python_intro.ipynb
+  - file: docs/lectures/python/python_oop.md
+    sections:
+    - file: docs/lectures/python/intro_to_oop.ipynb
+    - file: docs/lectures/python/classes_methods_decorators.ipynb
+    - file: docs/lectures/python/more_oop.ipynb
+  - file: docs/lectures/git/version_control_with_git.md
+  - file: docs/lectures/testing_codestyle/testing_codestyle.md
+    sections:
+    - file: docs/lectures/testing_codestyle/writing_functioning_code.md
+    - file: docs/lectures/testing_codestyle/codestyle_and_docstrings.ipynb
+  - file: docs/lectures/cpp/cpp.md
+    sections:
+    - file: docs/lectures/cpp/intro_to_cpp.md
+    - file: docs/lectures/cpp/arrays_and_pointers.md
+    - file: docs/lectures/cpp/oop_in_cpp.md
+    - file: docs/lectures/cpp/dynamic_allocation_and_arrays.md
+    - file: docs/lectures/cpp/linked_lists_and_algorithm_analysis.md
+    - file: docs/lectures/cpp/linkedlists_vs_dynamicarrays.md
+    - file: docs/lectures/cpp/sorting.md
+  - file: docs/lectures/stochastic_processes/stochastic_processes.md
+    sections:
+    - file: docs/lectures/stochastic_processes/random_number_generators.ipynb
+    - file: docs/lectures/stochastic_processes/using_random_numbers.ipynb
+    - file: docs/lectures/stochastic_processes/random_walks_and_markov_processes.ipynb
+    - file: docs/lectures/stochastic_processes/solving_the_1D_diffusion_equation.ipynb
+    - file: docs/lectures/stochastic_processes/markov_chains.ipynb
+  - file: docs/lectures/optimization/optimization.md
+    sections:
+    - file: docs/lectures/optimization/software_optimization.ipynb
+    - file: docs/lectures/optimization/optimization_and_mixed_programming.ipynb
+    - file: docs/lectures/optimization/parallel_programming.ipynb
+  - file: docs/lectures/summary/course_summary.md
+- caption: Exercises
   chapters:
-    - file: docs/exercises/week1/E1_python_refresh_and_git.ipynb
-    - file: docs/exercises/week2/E2_exercises_on_oop.ipynb
-    - file: docs/exercises/week3/E3_testing_and_docstrings.ipynb
-    - file: docs/exercises/week6/E6_intro_to_cpp.md
-      sections:
-        - file: docs/exercises/week6/E6_references_and_pointers.md
-        - file: docs/exercises/week6/C1_primes_by_trial_division.md
-    - file: docs/exercises/week7/E7_oop_in_cpp.md
-      sections:
-        - file: docs/exercises/week7/C2_primes_by_sieve.md
-    - file: docs/exercises/week10/E8_random_number_generators.ipynb
-    - file: docs/exercises/week11/E9_random_walks_and_markov_process.ipynb
-    - file: docs/exercises/week12/E10_optimization_and_mixed_programming.ipynb
-    - file: docs/exercises/week13/E11_parallel_programming.ipynb
-
-- part: Exercise solutions
+  - file: docs/exercises/week1/E1_python_refresh_and_git.ipynb
+  - file: docs/exercises/week2/E2_exercises_on_oop.ipynb
+  - file: docs/exercises/week3/E3_testing_and_docstrings.ipynb
+  - file: docs/exercises/week6/E6_intro_to_cpp.md
+    sections:
+    - file: docs/exercises/week6/E6_references_and_pointers.md
+    - file: docs/exercises/week6/C1_primes_by_trial_division.md
+  - file: docs/exercises/week7/E7_oop_in_cpp.md
+    sections:
+    - file: docs/exercises/week7/C2_primes_by_sieve.md
+  - file: docs/exercises/week10/E8_random_number_generators.ipynb
+  - file: docs/exercises/week11/E9_random_walks_and_markov_process.ipynb
+  - file: docs/exercises/week12/E10_optimization_and_mixed_programming.ipynb
+  - file: docs/exercises/week13/E11_parallel_programming.ipynb
+- caption: Exercise solutions
   chapters:
-    - file: docs/exercises/week1/E1_solutions.ipynb
-    - file: docs/exercises/week2/E2_solutions.ipynb
-    - file: docs/exercises/week3/E3_solutions.ipynb
-    - file: docs/exercises/week6/E6_solutions.md
-    - file: docs/exercises/week6/week6-challenge.md
-    - file: docs/exercises/week11/E9_solutions.ipynb
-    - file: docs/exercises/week12/E10_solutions.ipynb
-    - file: docs/exercises/week13/E11_solutions.ipynb
-
-- part: Projects
+  - file: docs/exercises/week1/E1_solutions.ipynb
+  - file: docs/exercises/week2/E2_solutions.ipynb
+  - file: docs/exercises/week3/E3_solutions.ipynb
+  - file: docs/exercises/week6/E6_solutions.md
+  - file: docs/exercises/week6/week6-challenge.md
+  - file: docs/exercises/week11/E9_solutions.ipynb
+  - file: docs/exercises/week12/E10_solutions.ipynb
+  - file: docs/exercises/week13/E11_solutions.ipynb
+- caption: Projects
   chapters:
-    - file: docs/projects/how_to_project_work.md
-    - file: docs/projects/project0/project0.md
-    - file: docs/projects/project1/double_pendulum.ipynb
-    - file: docs/projects/project2/project2.md
-    - file: docs/projects/project3/project3.ipynb
+  - file: docs/projects/how_to_project_work.md
+  - file: docs/projects/project0/project0.md
+  - file: docs/projects/project1/double_pendulum.ipynb
+  - file: docs/projects/project2/project2.md
+  - file: docs/projects/project3/project3.ipynb
