@@ -22,6 +22,9 @@ docs: ## Build book
 	for folder in cpp git optimization python stochastic_processes testing_codestyle summary; do \
     	cp -r book/docs/lectures/$$folder/fig book/_build/html/docs/lectures/$$folder/ ; \
 	done
+	for lecture in L01; do \
+		cp -r book/docs/slides/$$lecture/figures book/_build/html/docs/slides/$$lecture/ ; \
+	done
 	cp -r book/docs/info/fig book/_build/html/docs/info/
 	touch book/_build/html/.nojekyll
 	
