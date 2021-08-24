@@ -8,9 +8,9 @@ marp: true
 
 
 # Lecture 2 - `git` versjonskontrollsystem
+Henrik Finsberg - 26.08.21
 
 ---
-
 Dette er et Zoom opptak og alle spørsmål fra deltagere blir en del av opptaket. De som ikke ønsker dette bør slå av sin mikrofon og video. De kan bruke chat-funksjonene, den blir ikke lagret. Opptaket blir lagret inntil videre og skal brukes i undervisning. Opptaket legges ut på semestersiden og vil være tilgjengelig for alle. Hjemmelsgrunnlag for behandlingen er personvernforordningen art. 6 nr. 1 bokstav e, jf. universitets og høyskoleloven § 1-3
 
 ---
@@ -25,15 +25,13 @@ Dette er et Zoom opptak og alle spørsmål fra deltagere blir en del av opptaket
 
 ---
 
-## Målet med et versjonskontrolssystem
+## Hva er et versjonskontrollsystem?
 
-- Vi ønsker at flere personer skal kunne jobbe med de samme filene samtidig
-  - Branching
-- Når vi arbeider samtiding ønsker vi ikke at endringer ødelegger for andre, men vi ønsker å få oppdateringer fra andre
-  - Merging
-  - Pull requests
-- Vi ønsker å kunne gå tilbake i historien til en hvilken som helst tidligere versjon.
-- Vi ønsker å se hvorfor endinger ble gjort, når de ble gjort og hvem som gjorde det.
+- Et system som lar deg lagre ulike versjoner av samme fil
+---
+
+## Hvordan lagrer vi ulike versjoner av samme fil?
+![bg right contain](figures/phd_final.gif)
 
 ---
 
@@ -45,9 +43,16 @@ Dette er et Zoom opptak og alle spørsmål fra deltagere blir en del av opptaket
 
 ---
 
-![bg right contain](figures/phd_final.gif)
 
-## Hvordan lagrer vi ulike versjoner av samme fil?
+## Målet med et versjonskontrolssystem
+
+- Vi ønsker at flere personer skal kunne jobbe med de samme filene samtidig
+  - Branching
+- Når vi arbeider samtiding ønsker vi ikke at endringer ødelegger for andre, men vi ønsker å få oppdateringer fra andre
+  - Merging
+  - Pull requests
+- Vi ønsker å kunne gå tilbake i historien til en hvilken som helst tidligere versjon.
+- Vi ønsker å se hvorfor endinger ble gjort, når de ble gjort og hvem som gjorde det.
 
 ---
 
@@ -85,10 +90,6 @@ Test om `git` er installert ved å kjøre commandoen `git` i terminalen
 ---
 
 ## La oss prøve `git` i praksis
-
----
-
-## Lag en mappe med filer
 
 * Lag en ny mappe `my_first_git_project`
     ```
@@ -343,6 +344,7 @@ igjen
 ---
 
 ## Kontroll spørsmål
+Har dere fulgt med? :) 
 
 ---
 ## Hva heter de fire tilstandene en fil kan være i?
@@ -602,12 +604,11 @@ git checkout -b testing
 ---
 
 ## Hvordan kommer vi oss tilbake til `master` ? 
----
 
-## Hvordan kommer vi oss tilbake til `master` ? 
-```
-git checkout master
-```
+*
+    ```
+    git checkout master
+    ```
 ---
 
 ## Start å jobbe på branchen
