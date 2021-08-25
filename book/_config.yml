@@ -31,11 +31,12 @@ notebook_interface: "notebook"
 #######################################################################################
 # Launch button settings
 repository:
-  url: https://github.uio.no/IN1910/IN1910_H21
+  url: https://github.com/finsberg/IN1910_H21
   path_to_book: "book"
 
 launch_buttons:
   jupyterhub_url: "https://hub2.jupyterhub.uio.no"
+  thebe: true
 
 latex:
   latex_engine: "xelatex"
