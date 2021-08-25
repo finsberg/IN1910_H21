@@ -728,9 +728,6 @@ Nå har `testing` fått endringene vi hadde på `master`
     ```
     git push origin testing
     ```
-
----
-
 ---
 
 ## Ressurser
