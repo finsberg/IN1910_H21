@@ -161,25 +161,18 @@ Test om `git` er installert ved å kjøre commandoen `git` i terminalen
 ```
 $ git status
 On branch master
+
+No commits yet
+
 Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        modified:   first.py
+  (use "git rm --cached <file>..." to unstage)
+        new file:   first.py
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
         modified:   first.py
 ```
-
----
-
-## `git checkout` for å forkaste endringene i working directory
-
-- `git checkout` brukes til veldig mye (kanskje litt for mye)
-- En av tingene er å forkaste endringene i working directory
-- Det finnes nå flere nye kommandoer som erstatter `git checkout`. I dette tilfelle `git restore`
-- Hvis du vil legge til endringen så kan du bruke `git add`
-
 ---
 
 ## `git commit` for å legge til filen i repoet.
@@ -192,10 +185,32 @@ Changes not staged for commit:
 
     Her går det også an å kun skrive `git commit`. Dette vil åpne en editor (default er mest sannsynelig vim eller nano). Dette kan du endre til for eksempel Visual studio code ved å skrive
     ```
-    git config --global core.editor code
+    git config --global core.editor "code --wait"
     ```
     
 * Alt som var av filer i "staging area" blir nå fjernet derfra igjen (vi hadde bare `first.py` der) og lagt til i historien til git repoet ditt.
+
+---
+
+![bg 80%](figures/git_stages/Slide3.png)
+
+---
+
+## Gjør noen flere endringer
+
+- Gjør noen flere endringer til `first.py`
+- Bruk `git status` for å se på tilstanden til repoet
+- Hvordan kan vi forskaste endringene vi nettop har gjort?
+
+
+---
+
+## `git checkout` for å forkaste endringene i working directory
+
+- `git checkout` brukes til veldig mye (kanskje litt for mye)
+- En av tingene er å forkaste endringene i working directory
+- Det finnes nå flere nye kommandoer som erstatter `git checkout`. I dette tilfelle `git restore`
+- Hvis du vil legge til endringen så kan du bruke `git add`
 
 ---
 
@@ -246,7 +261,6 @@ Date:   Mon Aug 16 14:02:00 2021 +0200
 ![bg 80%](figures/git_stages/Slide3.png)
 
 ---
-
 ## En fil kan være i fire forskjellige tilstander
 
 - Gjør noen endringer til `first.py` og utfør `git add`
@@ -279,9 +293,9 @@ Untracked files:
 * `second.py` er ikke lagt til i git repoet ennå (Untracked)
   * Den ligger kun i "working directory"
 * `fist.py` har tre forskjellig versjonen
-  * Den aller første versjonen vi committa (Repository)
-  * Den versionen vi "added"/"staged" (Staged)
-  * Den versionen vi akkurat endret (Working directory)
+  * Den versjonen vi sist committa (Repository)
+  * Den versjonen vi "added"/"staged" (Staged)
+  * Den versjonen vi akkurat endret (Working directory)
 
 
 ---
@@ -291,7 +305,7 @@ Untracked files:
 ---
 
 ## Se på endringene
-* Endringer mellom Working directory og Repoet
+* Endringer mellom Working directory og Staging area
     ```
     git diff
     ```
@@ -305,7 +319,7 @@ Untracked files:
 
 ---
 
-## Si nå at vi ønsker å gå tilbake til den aller første versjonen av `first.py`
+## Si nå at vi ønsker å gå tilbake til den versjonen av `first.py` i repoet
 
 * Dersom du skriver `git status` vil den hjelpe deg med hvilke kommandoer du skal bruke
 
@@ -318,7 +332,7 @@ Untracked files:
 * Merk: her kan du også bruke `git restore`
 ---
 
-## Si nå at vi ønsker å gå tilbake til den aller første versjonen av `first.py`
+## Si nå at vi ønsker å gå tilbake til den versjonen av `first.py` i repoet
 
 * For å gå tilbake til den original versjonen kan vi først skrive
     ```
@@ -329,7 +343,7 @@ Untracked files:
 * Nå finnes det fortsatt to versjoner av `first.py` (Unmodified og Working directory)
 ---
 
-## Si nå at vi ønsker å gå tilbake til den aller første versjonen av `first.py`
+## Si nå at vi ønsker å gå tilbake til den versjonen av `first.py` i repoet
 
 Til slutt kan vi gå tilbake til den originale versjonen ved å skrive
 ```
@@ -385,7 +399,11 @@ Har dere fulgt med? :)
 
 * Disse kan vi be git om å ignorere ved å legge til en fil som heter `.gitignore`
 
-* Demo - ignorer `second.py`
+* For eksempel `__pycache__`
+
+* Demo
+  * Generer `__pycache__` ved å først importere `second` i `first.py`.
+  * Ingorer så denne mappen i `git`
 
 * https://www.gitignore.io
 
@@ -420,7 +438,7 @@ Har dere fulgt med? :)
    ``` 
 * Hvordan kan vi få `third.py` tilbake nå?
 
-Sjekk om vi finner den i loggen (`git log`)
+* Sjekk om vi finner den i loggen (`git log`)
 
 ---
 
@@ -430,7 +448,7 @@ Sjekk om vi finner den i loggen (`git log`)
 
 * Hash verdien kan dere finne fra `git log`
 
-Prøv å gå tilbake til committen da vi la til `third.py` og se om vi klarere å gjenopprette `third.py`.
+* Prøv å gå tilbake til committen da vi la til `third.py` og se om vi klarere å gjenopprette `third.py`.
 
 ---
 
@@ -438,11 +456,11 @@ Prøv å gå tilbake til committen da vi la til `third.py` og se om vi klarere �
 
 * For å gå tilbake til den nyeste commiten kan man du skrive
 
-```
-git checkout master
-```
+    ```
+    git checkout master
+    ```
 
-Mer om `master` og `HEAD` senere.
+    Mer om `master` og `HEAD` senere.
 
 ---
 
@@ -457,7 +475,7 @@ Mer om `master` og `HEAD` senere.
 
 ## Sette opp ett git repository på GitHub
 
-* Gjennom UiO så har alle en egent bruker på Github (https://github.uio.no)
+* Gjennom UiO så har alle en egen bruker på Github (https://github.uio.no)
     
 * La oss sette opp ett repo på Github der vi skal largre repoet vi akkuratt lagde
 
@@ -531,7 +549,7 @@ Mer om `master` og `HEAD` senere.
   ```
   git pull origin master
   ```
-* Ogås her kan du stort sett holde deg til `git pull`
+* Også her kan du stort sett holde deg til `git pull`
   
 ---
 
@@ -543,8 +561,7 @@ Mer om `master` og `HEAD` senere.
 
 * Du vil da få det vi kaller en merge-konflikt (merge conflict).
 
-
-Simuler dette scenarioet
+* Simuler dette scenarioet
 
 ---
 
@@ -567,8 +584,8 @@ Simuler dette scenarioet
 
 ![bg right fit](figures/branch-and-history.png)
 
-* Hver gang vi gjør en commit flyttes `master` til den nyeste committen
-* `HEAD` viser hvor vi er lokalt
+Hver gang vi gjør en commit flyttes `master` til den nyeste committen
+`HEAD` viser hvor vi er lokalt
   
 ---
 
@@ -578,9 +595,9 @@ Simuler dette scenarioet
     ```
     git branch testing
     ```
-Du kan sjekke at du har en ny branch ved å skrive `git branch`
+* Du kan sjekke at du har en ny branch ved å skrive `git branch`
 
-![bg right contain](figures/head-to-master.png)
+![bg right 90%](figures/head-to-master.png)
 
 ---
 
@@ -589,7 +606,7 @@ Du kan sjekke at du har en ny branch ved å skrive `git branch`
     ```
     git checkout testing
     ```
-![bg right contain](figures/head-to-testing.png)
+![bg right 90%](figures/head-to-testing.png)
 
 ---
 
@@ -605,13 +622,14 @@ git checkout -b testing
 
 ## Hvordan kommer vi oss tilbake til `master` ? 
 
-*
-    ```
-    git checkout master
-    ```
+```
+git checkout master
+```
+
 ---
 
 ## Start å jobbe på branchen
+
 * Sjekk at du er på branchen ved a skrive `git branch` eller `git status`
 * Lag en fil som heter `test.py` og legg den til i repoet
 
@@ -657,6 +675,7 @@ git checkout master
 
 ## La oss gjøre noen endringer på `master`
 * Gjør en endring i `first.py` og legg til i repoet
+* Lag deretter noen endringe i `first.py` på testing branchen
   
 
 ![bg right contain](figures/advance-master.png)
@@ -666,11 +685,23 @@ git checkout master
 ## Branch merging
 * La oss si at vi nå er ferdig med arbeided på `testing` og ønsker å få endringene inn i master. 
 * Husk `master` er hoved-forgreningen vår så vi ønsker at denne alltid skal fungere
-* Dermed må vi først hente de nye endringene i `master` inn `testing`
+* Vi skal gjøre dette ved å lage en pull request
 
---- 
+---
 
-## `git merge` for kan brukes for å flette en branch inn i en annen
+## Lag en Pull Request
+
+- En Pull Request (PR) er et verktøy som kan brukes til å fortelle andre hva du har endret og hvorfor
+- I en Pull request kan man se over koden og komme med kommentarer og ha en diskusjon rundt endringene som er gjort
+- Når noen ser over koden i en pull request kalles det for *code review*
+- Du sender med andre ord en forespørslen (request) til utviklerene i GitHub repoet om at du skal pulle din branch inn en annen branch
+- Lag en Pull Request hvor du ber om at `testing` skal merges inn i `master`
+
+---
+
+## Alternativ til pull request
+
+###  `git merge` for kan brukes for å flette en branch inn i en annen
 
 - Gå til `testing`
     ```
@@ -699,14 +730,6 @@ Nå har `testing` fått endringene vi hadde på `master`
     ```
 
 ---
-
-## Lag en Pull Request
-
-- En Pull Request (PR) er et verktøy som kan brukes til å fortelle andre hva du har endret og hvorfor
-- I en Pull request kan man se over koden og komme med kommentarer og ha en diskusjon rundt endringene som er gjort
-- Når noen ser over koden i en pull request kalles det for *code review*
-- Du sender med andre ord en forespørslen (request) til utviklerene i GitHub repoet om at du skal pulle din branch inn en annen branch
-- Lag en Pull Request hvor du ber om at `testing` skal merges inn i `master`
 
 ---
 
