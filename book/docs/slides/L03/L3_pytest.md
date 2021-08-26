@@ -8,6 +8,7 @@ marp: true
 
 
 # Lecture 3 and 4 - Testing og Feilhåndtering
+Henrik Finsberg - 31.08.21
 
 ---
 
