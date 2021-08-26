@@ -16,8 +16,10 @@ parts:
   chapters:
   - file: docs/slides/L01/L1_course_overview.ipynb
   - file: docs/slides/L02/L2_git.md
+  - file: docs/slides/L03/L3_pytest.md
 - caption: Lecture videos
   chapters:
+  - file: docs/videos/videos_H21.md
   - file: docs/videos/videos_H20.md
   - file: docs/videos/videos_H19.md
 - caption: Lectures
